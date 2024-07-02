@@ -1,0 +1,8 @@
+#!/bin/bash
+destino_favorito=$(sed -n '1p' destinos.txt)
+ultimo_lugar=$(sed -n '2p' destinos.txt)
+lugar_a_visitar=$(sed -n '3p' destinos.txt)
+echo "mi destino favorito de viaje es $destino_favorito, el ultimo lugar al que fui fue $ultimo_lugar, y me gustaria visitar $lugar_a_visitar."
+```{bash}
+echo "saludo"
+```
